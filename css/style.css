@@ -1,3 +1,11 @@
+html{
+  background: url('https://www.setaswall.com/wp-content/uploads/2018/09/Xiaomi-Mi-8-Youth-Stock-Wallpaper-005-1080x2160-768x1536.jpg') no-repeat center center fixed;
+  background-size:contain;
+  height: 400px;
+  
+}
+
+
 .head .header{
   text-align:center;
   font-size:40px ;
@@ -13,11 +21,7 @@
   color: rgb(105, 56, 36);
   text-align: left;
   text-decoration: underline;
-  
-}
-
- 
-  
+  }
 
 .list{
   background-color: lightsteelblue;
@@ -32,13 +36,8 @@
   font-style: italic;
 
 }
-html{
-  background: url('https://www.setaswall.com/wp-content/uploads/2018/09/Xiaomi-Mi-8-Youth-Stock-Wallpaper-005-1080x2160-768x1536.jpg') no-repeat center center fixed;
-  background-size:contain;
-  height: 400px;
-  
- 
-}
+
+
 .contacts{
   background-color:floralwhite;
   width: 700px;
@@ -49,4 +48,3 @@ html{
   text-align: left;
 }
 
-}
