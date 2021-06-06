@@ -31,11 +31,16 @@ html{
   margin: 20px;
 }
 
-.School.course{
+.School{
   font-weight: bold;
   font-style: italic;
-
 }
+#course{
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+
 
 
 .contacts{
