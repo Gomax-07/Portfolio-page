@@ -9,7 +9,7 @@ Portfolio-Self-assessment
 ## Program Author:
  Macharia John.
  
- ##Description of Project:
+ ## Description of Project:
  
  A self assessment project of skills in creation and design of a web-page using HTML and CSS.
  
