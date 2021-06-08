@@ -2,6 +2,14 @@
     background-color: linear-gradient(to right, rgba(97, 158, 95, 1), rgb(97, 158, 95, 0));
 }
 
+html {
+    background: url(/images/DNA.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .head .header {
     text-align: center;
     font-size: 40px;
