@@ -1,59 +1,45 @@
-html{
-  background: url('https://www.setaswall.com/wp-content/uploads/2018/09/Xiaomi-Mi-8-Youth-Stock-Wallpaper-005-1080x2160-768x1536.jpg') no-repeat center center fixed;
-  background-size:contain;
-  height: 400px;
-  
+.head .header {
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
 }
 
-
-
-
-.head .header{
-  text-align:center;
-  font-size:40px ;
-  text-decoration: underline;
-
-}
-.header{
-  color: rgb(27, 136, 34);
-  font-weight:bolder;
-  font-family: Verdana;
-}
-.portfolio{
-  color: rgb(105, 56, 36);
-  text-align: left;
-  text-decoration: underline;
+.header {
+    color: rgb(5, 46, 8);
+    font-weight: bolder;
+    font-family: Verdana;
 }
 
-
-
-
-.list{
-  background-color:oldlace;
-  width: 750px;
-  border: 10px solid rgb(25, 26, 39);
-  padding: 30px;
-  margin: 20px;
-}
-.School{
-  font-weight: bold;
-  font-style: italic;
-}
-#course{
-  font-weight: bolder;
-  font-style: oblique;
+.portfolio {
+    color: rgb(105, 56, 36);
+    text-align: left;
+    text-decoration: underline;
 }
 
-
-
-
-.contacts{
-  background-color:oldlace;
-  width: 700px;
-  border: 10px solid rgb(25, 26, 39);
-  padding: 30px;
-  margin: 20px;
-  float: right;
-  text-align: left;
+.list {
+    background-color: lightsteelblue;
+    width: 750px;
+    border: 10px solid rgb(25, 26, 39);
+    padding: 30px;
+    margin: 20px;
 }
 
+.School.course {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.body {
+    background-size: contain;
+    height: 400px;
+}
+
+.contacts {
+    background-color: floralwhite;
+    width: 700px;
+    border: 10px solid rgb(25, 26, 39);
+    padding: 30px;
+    margin: 20px;
+    float: right;
+    text-align: left;
+}

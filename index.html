@@ -1,90 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Macharia John </title>
-  <link rel="stylesheet" href="css/style.css">
- 
-  <div class="head">
-    <div class="header">
-    <h1>Macharia John. </h1>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macharia John </title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="container">
+    <div class="header ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Macharia John</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+
+            <h2>My Portfolio Page</h2>
+
+            <img src="images/genetics1.jpg " width="350 " height="220 " alt="DNA helical structure ">
+        </div>
+        <div class="container">
+
+            <div class="col-7">
+                <p>List of web projects created at <strong><em>Moringa School:</em></strong></p>
+
+                <ul>
+
+                    <li>My First webpage: a first HTML webpage... <a href="https://github.com/Gomax-07/my-first-webpage.git ">My First webpage link</a> </li>
+                    <li>My Favourite things: a HTML webpage that describes my interests... <a href="https://github.com/Gomax-07/second-webpage.git ">My Favourite things link</a></li>
+                    <li>Hello-Globe: a dummy HTMl webpage... <a href="https://github.com/Gomax-07/hello-globe.git ">Hello-Globe link </a>
+                </ul>
+            </div>
+
+            <div class=" jumbotron jumbotron-fluid ">
+                <div class="container ">
+                    <h1 class="display-3 ">About me</h1>
+                    <p class="lead ">
+                        <p>My name is <b>Macharia John</b></p>
+                        <hr class="my-2 ">
+                        <p>I am a <span id="course ">Biochemistry</span> graduate from <span class="School "> JKUAT. </span>I decided to pursue <br> programming to gain knowledge and skills required to venture into computational biology.</p>
+                        <p>My interestst and hobbies include:</p>
+                    </p>
+                    <p class="lead ">
+                        <a class="btn btn-primary btn-lg " href="# " role="button ">hobbies</a>
+                    </p>
+                </div>
+            </div>
+            <ol>
+                <li>Football</li>
+                <li>Chess</li>
+                <li>Reading</li>
+                <li>Recently,coding</li>
+
+            </ol>
+
+        </div>
+
 
     </div>
-    <div class="portfolio">
-    
-      <h2>My Portfolio Page</h2>
-      <img src="images/genetics1.jpg" width="350" height="220" alt="DNA helical structure" <title>(DNA helical structure!)</title>
-   
-    </div>
-  </div>
 
-  </head> 
 
-  
-<body>
-  <div class="projects">
-
-    <div class="list">
-      <p>List of web projects created at <strong><em>Moringa School:</em></strong></p>
-
-      <ul>
+    <style>
+        ul {
+            list-style-type: circle;
+            margin: 0;
+            padding: 0;
+        }
         
-        <li>My First webpage: a first HTML webpage... <a href="https://github.com/Gomax-07/my-first-webpage.git">My First webpage link</a> </li>
-        <li>My Favourite things: a HTML webpage that describes my interests... <a href="https://github.com/Gomax-07/second-webpage.git">My Favourite things link</a></li>
-        <li>Hello-Globe:  a dummy HTMl webpage...  <a href="https://github.com/Gomax-07/hello-globe.git">Hello-Globe link </a>
-      </ul>
-    </div>
-
-    <div class="About">
-        <h2><b>About me</b></h2>
-        <p>My name is <b>Macharia John</b>,I am a <span id="course">Biochemistry</span> graduate from <span class="School"> JKUAT. </span>I decided to pursue <br> programming to gain knowledge and skills required to venture into computational biology.</p>
-        <p>My interestst and hobbies include:</p>
-        
-        <ol>
-          <li>Football</li>
-          <li>Chess</li>
-          <li>Reading</li>
-          <li>Recently,coding</li>
-          
-        </ol>
-
-    </div>
-
-
-  </div>
-
-  <section class="contacts">
-    <div class="details">
-      <h3><span class="info">User Information.</span></h3>
-    </div>
-    <div id=" social">
-      <style>
-        ul{
-          list-style-type:circle;
-          margin: 0;
-          padding: 0;
-           }
-           li a {
-           display: block;
-           color: #000;
-           padding: 8px 16px;
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
             text-decoration: none;
-            }
-            li a:hover {
-            background-color: rgb(97, 158, 95);
-            color: white;
-            }
-      </style>
-      <nav>
-        <ul>
-          <li><a href="https://github.com/Gomax-07">Github</a></li>
-          <li><a href="https://www.linkedin.com/in/john-metry-a57632213?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRtUca1QMTvSv%2FqGolAZ7WA%3D%3D">linkedin</a></li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-  
+        }
+        
+        li a:hover {
+            background: linear-gradient(to right, rgba(97, 158, 95, 1), rgb(97, 158, 95, 0));
+            color: rgb(255, 255, 255);
+        }
+    </style>
+
+    <!-- Site footer -->
+    <footer class="site-footer ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm-12 col-md-6 ">
+                    <h6>About</h6>
+                    <p class="text-justify ">My name is <i>Macharia John </i> ,I am a <span id="course ">Biochemistry</span> graduate from <span class="School "> JKUAT. </span>I decided to pursue <br> programming to gain knowledge and skills required to venture into computational
+                        biology.
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3 ">
+                    <h6>Categories</h6>
+                    <ul class="footer-links ">
+                        <li><a href=" ">html</a></li>
+                        <li><a href=" ">UI Design</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3 ">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links ">
+                        <li><a href=" ">About Me</a></li>
+                        <li><a href=" ">Contact Me</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-8 col-sm-6 col-xs-12 ">
+                    <p class="copyright-text ">Copyright &copy; 2021 All Rights Reserved by
+                        <a href="# ">Macharia John</a>.
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12 ">
+                    <ul class="social-icons ">
+                        <li>
+                            <a class="facebook " href="# ">
+                                <i class="fa fa-facebook ">
+                                    <span>Insta</span>
+                            </a>
+                        </li>
+                        <li>
+                          <a class="facebook " href="https://github.com/Gomax-07 ">
+                              <i class="fa fa-facebook ">
+                                  <span>Github</span>
+                          </a>
+                      </li>
+                      <li>
+                        <a class="facebook " href="# ">
+                            <i class="fa fa-facebook ">
+                                <span>Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                      <a class="facebook " href="https://www.linkedin.com/in/john-metry-a57632213?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRtUca1QMTvSv%2FqGolAZ7WA%3D%3D ">
+                          <i class="fa fa-facebook ">
+                              <span>Linkdin</span>
+                      </a>
+                  </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
