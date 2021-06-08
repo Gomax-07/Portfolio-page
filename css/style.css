@@ -10,6 +10,23 @@ html {
     background-size: cover;
 }
 
+#home {
+    background: url(https://thumbs.dreamstime.com/z/oxidative-dna-damage-genetic-disorder-molecular-structure-syndrome-d-illustration-science-concept-colorful-molecule-164052615.jpg)no-repeat center center fixed;
+    ;
+    #home {
+        position: fixed;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+    }
+    .homewidth {
+        width: 100%;
+    }
+    .homeheight {
+        height: 100%;
+    }
+}
+
 .head .header {
     text-align: center;
     font-size: 40px;
